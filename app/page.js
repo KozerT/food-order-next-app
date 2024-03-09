@@ -7,3 +7,5 @@ export default function Home() {
     </main>
   );
 }
+
+//localhost3000/about...
