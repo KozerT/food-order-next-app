@@ -12,9 +12,8 @@ export default function MainHeader() {
       <header className={classes.header}>
         <Link href="/" className={classes.logo}>
           <Image src={logoImg} alt="A plate with food" priority />
-          Food Ordering App with Next.js
+          Food Sharing App with Next.js
         </Link>
-
         <nav className={classes.nav}>
           <ul>
             <li>
