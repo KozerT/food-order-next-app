@@ -5,9 +5,11 @@ import { notFound } from "next/navigation";
 
 export default function MealDetails({ params }) {
   const meal = getMeal(params.mealSlug);
+  console.log(meal.image);
 
   if (!meal) {
     notFound();
+    return null;
   }
 
   meal.instructions = meal.instructions.replace(/\n/g, "<br>");
